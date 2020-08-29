@@ -76,7 +76,7 @@
                             $("<h6>").text("Phone: " + resData[i].phoneNumber),
                             $("<h6>").text("Email: " + resData[i].email),
                             $("<br>"),
-                            $("<a class='btn btn-lg btn-primary' id='seatTable'role='button'>").text("    Seat Table").prepend("<i class='fas fa-chair'></i>")
+                            $("<a class='btn btn-lg btn-primary' id='clearTable'role='button'>").text("    Clear Table").prepend("<i class='fas fa-chair'></i>")
                         )
 
                         reservations.append(tables);
@@ -112,6 +112,12 @@
                     }
                 })
         };
+
+        function seatTable() {
+            $("#seatTable").on("click", function() {
+
+            })
+        }
 
 
         currentReservations();
