@@ -2,7 +2,7 @@
 // =============================================================
 const express = require("express");
 const path = require("path");
-const reservations = require("./data/tableData")
+const reservations = require("./data/tableData");
 const waitlist = require("./data/waitlistData");
 const reservedTables = require("./data/tableData");
 
